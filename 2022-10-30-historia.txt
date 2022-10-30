@@ -1,0 +1,518 @@
+
+date
+ls
+cal
+cal 2000
+cal 11 2000
+cal 2000 11
+cal 11 2000
+cal 11 2001
+cal 9 2001
+cal --help
+cal -s
+cal 
+cal --sunday
+cal --help
+cal -3
+cal -3 -s
+cal -3s 
+cal -3sj
+cal --help
+man cal
+cal 1752
+man cal
+apropos
+apropos cal
+apropos calendar
+apropos programming
+apropos compiler
+apropos usb
+cal
+cal --help
+cal 12
+cal -12
+cal 67bne
+clear
+pwd
+ls
+cd zmienmnie
+pwd
+ls
+cd ..
+pwd
+cd ..
+pwd
+cd ..
+pwd
+ls
+cd
+pwd
+cd ..
+cd var
+ls
+cd lib
+ls
+cd pustf
+cd postfix
+ls
+pwd
+cd /etc/httpd/
+pwd
+ls
+cd conf
+ls
+pwd
+cat httpd.conf 
+pwd
+cd ../../cron.daily/
+pwd
+ls
+cd /var/log/httpd/
+cd /root
+cd /
+ls
+cd
+ls
+ls -l
+ls -l /dev
+ls -l /bin
+ls -l /bin/
+alias
+ls --color=auto
+ls -l
+cp szkolenia.txt szk2.txt
+ls -l
+cp szkolenia.txt Pulpit/
+cp szkolenia.txt Pulpit/aaaaaaaaaaaaaa
+cp szkolenia.txt /tmp/
+ls -l /tmp/
+ls -l /dev
+ls
+mv szk2.txt Pulpit/
+cd Pulpit/
+ls -l
+mv aaaaaaaaaaaaaa bbbbbbbbbbbbbbbbbbb
+mkdir Mateusz
+cd Mateusz/
+cd ..
+ls -l
+mkdir Moje dokumenty
+ls -l
+mkdir Moje\ dokumenty
+ls -l
+mkdir "Moje obrazki"
+mkdir 'Moje piosenki'
+ls -l
+mkdir 'MOJE DOKUMENTY'
+mkdir 'moje dokumenty'
+ls -l
+rmdir MOJE\ DOKUMENTY/
+rmdir "moje dokumenty"/
+rmdir "Moje piosenki"/
+rmdir 'Moje obrazki'/
+rmdir Moje\ dokumenty/
+ls -l
+mkdir Cokolwiek
+ls -l
+cp szkolenia.txt Cokolwiek/
+cd Cokolwiek/
+ls -l
+cd ..
+ls -al
+rmdir Cokolwiek/
+rm szk2.txt 
+rm Cokolwiek/
+rm -r Cokolwiek/
+ls -al
+cd
+ls -l
+ls -l *.txt
+ls -l /etc/
+ls -l /etc/p*
+ls -l /etc/p*.conf
+ls -l
+mkdir kopia
+cp *.txt kopia/
+cd kopia/
+ls -l
+mkdir xyz
+mv z*.txt xyz/
+cd xyz
+ls
+cd ..
+ls -l
+ls -l /usr/share/d*
+ls -l /usr/share/d*t
+cd
+ls -al
+ls -l
+ls -l -a
+ls -la
+ls -al
+cd katalogi/katalog1/
+ls -al
+mkdir kopiazapasowa
+cp trash/* kopiazapasowa/
+ls -l kopiazapasowa/
+ls -l trash/
+cd trash/
+ls -l
+mkdir ryby karpaty
+ls -l
+mkdir karpaty/teksty karpaty/obrazki ryby/teksty ryby/obrazki
+ls -l
+ls -l *ryb*.txt
+mv *ryb*.txt ryby/teksty/
+ls *ryb*.jpg
+mv *ryb*.jpg ryby/obrazki/
+ls -l
+mv *.txt karpaty/teksty/
+mv *.jpg karpaty/obrazki/
+ls -l
+pwd
+cp ../kopiazapasowa/* ./
+ls -l
+cd 
+ls -al
+ls
+whoami
+who
+date
+id
+date > teraz.txt
+ls -l
+cat teraz.txt
+whoami 
+whoami > teraz.txt 
+cat teraz.txt 
+date
+date > teraz.txt 
+cat teraz.txt 
+> teraz.txt 
+ls -l teraz.txt 
+> teraz.txt 
+ls -l
+cd /usr/local/
+mc
+ls -l
+cd bin
+ls
+cat alxinit.sh 
+ls -l
+cd
+echo Dzień dobry
+echo test
+echo
+echo test > teraz.txt 
+ls
+ls -l
+ls -l > /tmp/mojepliki.txt
+cd /tmp
+cat mojepliki.txt 
+ls -l
+alias
+ls -l
+date > teraz.txt
+cat teraz.txt 
+date > teraz.txt
+cat teraz.txt 
+date >> teraz.txt
+cat teraz.txt 
+date >> teraz.txt
+cat teraz.txt 
+whoami >> teraz.txt 
+cat teraz.txt 
+echo KONIEC >> teraz.txt 
+cat teraz.txt 
+cat /etc/passwd
+cat /etc/passwd | grep bash
+cat /etc/passwd | grep nfs
+cat /etc/passwd | grep var
+cat /etc/passwd | grep bash
+cat /etc/passwd | grep -v bash
+ls -l /etc/shadow
+cat /etc/shadow
+cat /etc/passwd 
+cat /etc/passwd | cut -d : -f 1
+cat /etc/passwd | greo bash
+cat /etc/passwd | grep bash
+cat /etc/passwd | grep bash | cut -d : -f 1
+cat /etc/passwd | grep -v bash | cut -d : -f 1
+cat /etc/passwd | grep -v bash | cut -d : -f 1 | sort
+cat /etc/passwd | grep -v bash | cut -d : -f 1 | sort > konta-bez-basha.txt
+ls -l
+cat /etc/passwd 
+cat /etc/passwd | cut -d : -f 1,6,7
+cat /etc/passwd | cut -d : -f 1,7
+cat /etc/passwd | cut -d : -f 1-4
+cat /etc/passwd | cut -d : -f 1-3,6-7
+cat /etc/passwd 
+cat /etc/passwd | cut -d : -f 1,3
+cat /etc/passwd | cut -d : -f 3,1
+cat /etc/passwd | cut -d : -f 1,1,1,1
+cat /etc/passwd | cut -d : -f 1-4,2-7
+cat /etc/passwd | cut -d : -f 7
+cat /etc/passwd | cut -d : -f 7 | uniq
+cat /etc/passwd | cut -d : -f 7 
+cat /etc/passwd | cut -d : -f 7 | sort
+cat /etc/passwd | cut -d : -f 7 | sort | uniq
+cat /etc/passwd | cut -d : -f 7 | sort | uniq -c
+cat /etc/passwd | cut -d : -f 7 | sort | uniq -c | sort -n
+cat /etc/passwd | cut -d : -f 7 | sort | uniq -c | sort 
+cat /etc/passwd | cut -d : -f 7 | sort | uniq -c | sort -r 
+cat /etc/passwd | cut -d : -f 7 | sort | uniq -c | sort -r | head -1
+cat /etc/passwd | cut -d : -f 7 | sort | uniq -c | sort -r | head -2
+cat /etc/passwd | cut -d : -f 7 | sort | uniq -c | sort -r | head -3
+cat /etc/passwd | cut -d : -f 7 | sort | uniq -c | sort -r | head 
+cat /etc/passwd | cut -d : -f 7 | sort | uniq -c | sort -r | head -1
+cd
+cat /etc/passwd
+ls -l /etc/
+ls -l /etc/ | more
+ls -l /etc/ | less
+ls
+cd /sbin
+ls
+ls -l
+ls -l 
+ls -l lvm
+ls -lh lvm
+ls -l | grep lvm
+cd /usr/lib
+ls
+cd /usr/lib64/
+ls
+ls -l
+cd /
+ls -l
+cd
+ls -al
+ls -l
+cd katalogi/
+ls -l
+cd katalog1/
+ls -l
+cd trash/
+ls -al
+pwd
+ls -l
+ln -s rybka1.jpg RYBA
+ls -l
+ln -s /etc/passwd konta-systemowe.txt
+ls -l
+cat konta-systemowe.txt 
+ls -l
+date > RYBA 
+ls -l
+cat rybka1.jpg
+cd
+ls
+ls -l
+ln -s /etc/passwd p1
+ls -l
+ln -s ../../etc/passwd p2
+ls -l
+cat p1
+cat p2
+ls -l
+mv p1 Dokumenty/
+mv p2 Dokumenty/
+cd Dokumenty/
+cat p1
+ls -l
+pwd
+cd ..
+ls -al
+mkdir szkolenie
+cd szkolenie/
+ls
+date > plik.txt
+ls -al
+mkdir katalog
+mv plik.txt katalog/
+ls -al
+ln -s katalog/plik.txt symlink1.txt
+ls -al
+ln -s /home/kurs/szkolenie/katalog/plik.txt symlink2.txt
+ls -l
+cd ..
+mv szkolenie KURS
+cd KURS
+ls -l
+cd ..
+cd KURS
+ls -l
+rm symlink
+rm symlink2.txt 
+ls -al
+ln -s kot.txt zwierzak.txt
+ls -l
+echo Mruczek > kot.txt
+ls -l
+cd
+ls -l
+cp elementarz.txt nauka.txt
+vim nauka.txt
+nano
+cd firma/
+cd wszyscyludzie/
+ls
+ls -l
+cat Filip_Dreger 
+cat *
+ls
+cd ..
+cd dyrekcja/
+ls -l
+cat *
+cd ..
+ls
+mkdir projektx
+cd projektx/
+ls
+ls -l
+ln -s ../wszyscyludzie/Barbara_Rabarbar 
+ls
+ln -s /home/kurs/firma/wszyscyludzie/Tomasz_Kammel 
+ls -l
+ln -s ../wszyscyludzie/Michal_Zielinski 
+ls -l
+cd
+mv firma spolka
+cd spolka/
+cd projektx/
+ls -l
+cd ../../
+mv spolka/ firma/
+cd -
+cd firma/projektx/
+ls -l
+rm Tomasz_Kammel 
+ln -s ../wszyscyludzie/Tomasz_Kammel 
+ls -l
+vim Barbara_Rabarbar 
+cd 
+cd firma/
+ls
+cat dyrekcja/*
+cat dyrekcja/* | cut -d ',' -f 2
+cat dyrekcja/* | cut -d , -f 2
+cat dyrekcja/* | cut -d, -f2
+cat dyrekcja/* | cut -d, -f2 > emaile-dyrekcji.txt
+ls -al
+cat wszyscyludzie/*
+cat wszyscyludzie/* | cut -d, -f1
+cat wszyscyludzie/* | cut -d, -f1 | cut -d " " -f 2
+cat wszyscyludzie/* | cut -d, -f1 | cut -d " " -f 2 | sort 
+cat wszyscyludzie/* | cut -d, -f1 | cut -d " " -f 2 | sort  > nazwiska-pracownikow.txt
+ls -l
+cat dyrekcja/* projektx/*
+cat dyrekcja/* projektx/* | sort
+cat dyrekcja/* projektx/* | sort | uniq
+cat dyrekcja/* projektx/* | sort | uniq | cut -d " " -f 1
+cat dyrekcja/* projektx/* | sort | uniq | cut -d "," -f 1
+cat dyrekcja/* projektx/* | sort | uniq | cut -d "," -f 1 > zadanie-8.txt
+cd
+cat /etc/passwd
+cat /etc/group
+cat /etc/passwd
+su
+ls -l
+ls -l teraz.txt 
+chmod o-r teraz.txt 
+ls -l teraz.txt 
+chmod g-w teraz.txt 
+ls -l teraz.txt 
+chmod +r teraz.txt 
+ls -l teraz.txt 
+chmod 000 teraz.txt 
+ls -l teraz.txt 
+chmod 604 teraz.txt 
+ls -l teraz.txt 
+chmod 404 teraz.txt 
+chmod 644 teraz.txt 
+ls -l teraz.txt 
+chmod 755 teraz.txt 
+ls -l teraz.txt 
+chmod -x teraz.txt 
+ls -l teraz.txt 
+ls -l /bin
+ls -l /bin/
+stat su
+stat /bin/su
+stat /bin/bash
+ls -l /bin/passwd
+stat elementarz.txt 
+ls -l elementarz.txt 
+stat elementarz.txt 
+chmod 644 elementarz.txt 
+stat elementarz.txt 
+date
+su
+ifconfig 
+ssh mateusza@10.0.2.15
+who
+w
+exit
+ps x
+ps
+vim
+ifconfig 
+ip address
+ip addr
+ip a
+ip -c a
+who
+ps
+who
+ps
+ps x
+ps -x
+kill 8519
+ps -x
+kill 8457
+kill -9 8457
+ps -a
+man ps
+ps -aux
+ps aux
+ps -e
+ps -ef
+ps aux
+ps -ef
+ps auxf
+su
+ps f
+ps xf
+ps axf
+ps auxf
+top
+chown
+su
+id
+su
+mc
+yum search htop
+su
+vim
+history
+ls -al
+ls -al .bash_history 
+less .bash_history 
+ls -l /dev/null
+ifconfig 
+cal -3sj
+rm a.txt
+rm b.txt
+rm zawartosc-etc-2022-10-30.txt 
+rm uzytkownicy-basha.txt 
+rm teraz.txt 
+> aaa
+date > aaa
+date >> aaa
+date
+date >> aaa
+touch KURS
+touch bbb
+rm bbb
+rm aaa

@@ -1,0 +1,95 @@
+
+echo al.root
+exit
+whoami
+id
+cd /
+ls
+cd /etc/
+ls -l
+ls -l shadow
+cat shadow
+ls -l
+exit
+useradd
+adduser
+useradd
+useradd mateusza
+cat /etc/passwd
+useradd --help
+chfn mateusza
+cat /etc/passwd
+cat /etc/shadow
+passwd mateusza
+exit
+kill 8332
+cd /tmp
+ls -l
+chown mateusza konta-bez-basha.txt 
+ls -l konta-bez-basha.txt 
+chown 1002 konta-bez-basha.txt 
+ls -l konta-bez-basha.txt 
+useradd gosc
+cat /etc/passwd
+ls -l
+chown gosc:gosc konta-bez-basha.txt 
+ls -l konta-bez-basha.txt 
+id mateusza
+id kurs
+vim /etc/group
+id mateusza
+gpasswd -a kurs adm
+gpasswd -a kurs users
+id kurs
+vim /etc/group
+gpasswd -d mateusza adm
+yum search python
+python2
+python3
+yum install python3
+yum search gimp
+yum install gimp
+yum install -y gimp
+yum search midnight
+yum install -y mc
+mc
+yum install -y epel-release
+ls -l
+yum search htop
+yum install -y htop
+bash --version
+yum update
+rpm -ql htop
+rpm -ql zlib
+less /usr/share/doc/zlib-1.2.7/ChangeLog
+rpm -ql xz
+less /usr/share/doc/xz-5.2.2/ChangeLog
+htop
+cd /var/log/
+less messages
+cd /var/log/
+cat messages
+cat messages | grep ssh
+cat secure | grep ssh
+ls -l
+cat messages-20221030 | grep ssh
+cat secure-20221030 | grep ssh
+cat secure-20221030 | grep sshd
+cat secure-20221030 | grep 'sshd.*Accepted password for'
+cat secure-20221030 | grep 'sshd.*Accepted password for' | sed 's/^.* password for //'
+cat secure-20221030 | grep 'sshd.*Accepted password for' | sed 's/^.* password for \(.*\) from //'
+cat secure-20221030 | grep 'sshd.*Accepted password for' | sed 's/^.* password for \(.*\) from /UZYTKOWNIK=\1 /'
+cat secure-20221030 | grep 'sshd.*Accepted password for' | sed 's/^.* password for \(.*\) from \(.*\) port.*/\1 \2/'
+cat secure-20221030 | grep 'sshd.*Accepted password for' | sed 's/^.* password for \(.*\) from \(.*\) port.*/\2 \1/'
+cat secure-20221030 | grep 'sshd.*Accepted password for' | sed 's/^.* password for \(.*\) from \(.*\) port.*/\2/'
+cat secure-20221030 | grep 'sshd.*Accepted password for' | sed 's/^.* password for \(.*\) from \(.*\) port.*/\2/' | sort
+cat secure-20221030 | grep 'sshd.*Accepted password for' | sed 's/^.* password for \(.*\) from \(.*\) port.*/\2/' | sort | uniq -c
+cat secure-20221030 | grep 'sshd.*Accepted password for' | sed 's/^.* password for \(.*\) from \(.*\) port.*/\2/'
+cat secure-20221030 | grep 'sshd.*Accepted password for' | sed 's/^.* password for \(.*\) from \(.*\) port.*/\2 \1/'
+cat secure-20221030 | grep sshd
+cat secure-20221030 | grep sshd | grep pass
+cat secure-20221030 | sed '/sshd.*Accepted/s/^.* password for \(.*\) from \(.*\) port.*/\2 \1/'
+cat secure-20221030 | sed -n '/sshd.*Accepted/s/^.* password for \(.*\) from \(.*\) port.*/\2 \1/'
+cat secure-20221030 | sed -n '/sshd.*Accepted/s/^.* password for \(.*\) from \(.*\) port.*/\2 \1/p'
+cat secure-20221030 | sed -n '/sshd.*Failed/s/^.* password for \(.*\) from \(.*\) port.*/\2 \1/p'
+sed -n '/sshd.*Failed/s/^.* password for \(.*\) from \(.*\) port.*/\2 \1/p' < secure-20221030 

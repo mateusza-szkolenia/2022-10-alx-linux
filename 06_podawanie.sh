@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Jak masz na imię?"
+echo -n "Jak masz na imię?"
 
 read imie
 

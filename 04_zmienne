@@ -8,7 +8,7 @@
 echo "Szkolenie organizuje $firma."
 echo "$firma robi najlepsze szkolenia"
 
-sleep 3
+sleep 1
 
 echo "Koniec"
 

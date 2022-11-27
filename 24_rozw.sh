@@ -2,7 +2,10 @@
 
 read -p 'Podaj imię: ' imie
 
-if test "$imie" == "Mateusz"
+# uwaga na spacje!
+if [ "$imie" == "Mateusz" ]
+# ^ ^       ^  ^         ^
+
 then
 	echo "Witaj, mistrzu"
 else
@@ -13,4 +16,5 @@ else
 		echo "Witaj, $imie"
 	fi
 fi
+
 

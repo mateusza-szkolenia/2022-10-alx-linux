@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Szkolenie organizuje $firma."
+echo "$firma robi najlepsze szkolenia"
+

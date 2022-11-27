@@ -1,8 +1,6 @@
 #!/bin/bash
 
-echo -n "Jak masz na imię?"
-
-read imie
+read -p "Podaj imię: " imie
 
 echo "Witaj, $imie"
 

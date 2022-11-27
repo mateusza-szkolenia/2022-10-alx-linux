@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Parametr zerowy (nazwa programu): $0"
+
 echo "Liczba parametrów: $#"
 
 echo "Param 1: $1"

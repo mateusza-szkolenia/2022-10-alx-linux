@@ -4,12 +4,12 @@
 
 ```shell
 $ su
-# yum install git
+# yum install git tig
 ```
 
 Na Debianie:
 ```shell
-# apt-get install git
+# apt-get install git tig
 ```
 
 Na Windows: <https://gitforwindows.org/>

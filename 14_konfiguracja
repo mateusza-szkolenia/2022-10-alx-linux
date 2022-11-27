@@ -1,7 +1,15 @@
 #!/bin/bash
 
+# plik konfiguracyjny
+#
+# mimo, że przeznaczeniem tego pliku jest przechowanie zmiennych
+# to jest on uruchamiany jak zwykły fragment kodu
+
+echo Niespodzianka!
+
 imie=Mateusz
 firma=ALX
 szkolenie=Linux
 dzisiaj=$(date +%F)
 konto=$(whoami)
+

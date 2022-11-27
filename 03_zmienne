@@ -1,0 +1,8 @@
+#!/bin/bash
+
+imie=Mateusz
+
+echo "Dzień dobry, $imie"
+echo "Szkolenie prowadzi $imie"
+echo "$imie lubi Linuksa"
+

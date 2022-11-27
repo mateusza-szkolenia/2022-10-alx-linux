@@ -1,5 +1,15 @@
 #!/bin/bash
 
+# autor: Mateusz
+# skrypt powstał w ramach szkolenia
+# dokumentacja: xxx
+
+
 echo "Szkolenie organizuje $firma."
 echo "$firma robi najlepsze szkolenia"
 
+sleep 3
+
+echo "Koniec"
+
+# exit

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Podaj nazwę powłoki: " powloka
+powloka="$1"
 
 n=$(grep -c "/$powloka$" /etc/passwd)
 

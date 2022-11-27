@@ -1,6 +1,8 @@
 #!/bin/bash
 
-source 14_konfiguracja
+# source 14_konfiguracja
+. 14_konfiguracja
+
 # gdyby plik był w innym katalogu
 # source /etc/alx/konfiguracja
 #

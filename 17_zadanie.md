@@ -1,7 +1,7 @@
 # Zadanie
 
 Napisz skrypt, który zapyta użytkownika o nazwę powłoki
-a następnie wyświetli liczbę kont, które używają tej powłoki.
+a następnie wyświetli liczbę kont (z pliku `/etc/passwd`), które używają tej powłoki.
 
 Przykład:
 

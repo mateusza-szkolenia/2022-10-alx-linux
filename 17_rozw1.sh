@@ -2,7 +2,7 @@
 
 read -p "Podaj nazwę powłoki: " powloka
 
-n=$(cat /etc/passwd | grep "/$powloka$" | wc -l)
+n=$(grep -c "/$powloka$" /etc/passwd)
 
 echo "Liczba kont: $n"
 

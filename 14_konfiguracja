@@ -1,0 +1,5 @@
+imie=Mateusz
+firma=ALX
+szkolenie=Linux
+dzisiaj=$(date +%F)
+konto=$(whoami)

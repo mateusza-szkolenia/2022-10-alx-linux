@@ -1,12 +1,9 @@
 #!/bin/bash
 
-for plik in *.mp3
+for plik in *.mp3 *.exe *.md
 do
-	if [ -e "$plik" ]
-	then
-		# FIXME
-		echo "Plik: $plik"
-		wc -l < "$plik"\
-		# TODO: zmienić na użycie continue
-	fi
+	[ -e "$plik" ] || continue
+
+	echo "Plik: $plik"
+	wc -l < "$plik"
 done

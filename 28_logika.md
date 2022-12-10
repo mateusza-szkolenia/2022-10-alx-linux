@@ -19,3 +19,7 @@
 | FAŁSZ  | PRAWDA | PRAWDA   |
 | FAŁSZ  | FAŁSZ  | FAŁSZ    |
 
+* <https://en.wikipedia.org/wiki/Short-circuit_evaluation>
+* <https://pl.wikipedia.org/wiki/Warto%C5%9Bciowanie_leniwe>
+
+

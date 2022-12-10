@@ -7,13 +7,13 @@ for plik in *.sh
 do
 	n=$(wc -l < "$plik")
 
-	suma=$(( suma + n ))
+	(( suma += n ))
 
 	n2=$(grep -c -v '^$' < "$plik")
 
 	[ -x "$plik" ] && prawa=OK || prawa=poprawic
 
-	[ "$prawa" == "poprawic" ] && poprawic=$((poprawic + 1))
+	[ "$prawa" == "poprawic" ] && (( poprawic++ ))
 
 	grep -q "TODO" "$plik" && todo=tak || todo=brak
 

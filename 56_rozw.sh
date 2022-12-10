@@ -5,39 +5,35 @@ poprawic=0
 
 for plik in *.sh
 do
-	echo -n "Plik: $plik "
-
 	n=$(wc -l < "$plik")
 
 	suma=$(( suma + n ))
 
-	echo -n "liczba linii: $n "
-
 	n2=$(cat "$plik" | grep -v '^$' | wc -l)
-
-	echo -n "(niepustych: $n2) "
 
 	if test -x "$plik"
 	then
-		echo "prawa dostępu: OK"
+		prawa=OK
 	else
-		echo "prawa dostępu: poprawić"
+		prawa=poprawic
 		poprawic=$((poprawic + 1))
 	fi
 
 	if grep -q "TODO" "$plik"
 	then
-		echo "TODO: tak"
+		todo=tak
 	else
-		echo "TODO: brak"
+		todo=brak
 	fi
 
 	if grep -q "FIXME" "$plik"
 	then
-		echo "FIXME: tak"
+		fixme=tak
 	else
-		echo "FIXME: brak"
+		fixme=brak
 	fi
+
+	echo "$plik: linii kodu: $n (niepustych: $n2), prawa dostępu: $prawa, TODO: $todo, FIXME: $fixme"
 
 done
 

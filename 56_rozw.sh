@@ -19,4 +19,18 @@ do
 		echo "prawa dostępu: poprawić"
 	fi
 
+	if grep -q "TODO" "$plik"
+	then
+		echo "TODO: tak"
+	else
+		echo "TODO: brak"
+	fi
+
+	if grep -q "FIXME" "$plik"
+	then
+		echo "FIXME: tak"
+	else
+		echo "FIXME: brak"
+	fi
+
 done

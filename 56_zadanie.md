@@ -1,4 +1,4 @@
-#!/bin/bash
+# Zadanie
 
 Napisz program, który wyświetli listę plików z rozszerzeniem `.sh`
 Przy każdym pliku wyświetli:

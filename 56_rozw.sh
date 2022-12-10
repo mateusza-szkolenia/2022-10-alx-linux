@@ -11,15 +11,11 @@ do
 
 	n2=$(cat "$plik" | grep -v '^$' | wc -l)
 
-	if test -x "$plik"
-	then
-		prawa=OK
-	else
-		prawa=poprawic
-		poprawic=$((poprawic + 1))
-	fi
+	[ -x "$plik" ] && prawa=OK || prawa=poprawic
 
-	if grep -q "TODO" "$plik" && todo=tak || todo=brak
+	[ "$prawa" == "poprawic" ] && poprawic=$((poprawic + 1))
+
+	grep -q "TODO" "$plik" && todo=tak || todo=brak
 
 	grep -q "FIXME" "$plik" && fixme=tak || fixme=brak
 

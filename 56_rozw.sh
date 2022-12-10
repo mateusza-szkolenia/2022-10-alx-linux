@@ -1,6 +1,7 @@
 #!/bin/bash
 
 suma=0
+poprawic=0
 
 for plik in *.sh
 do
@@ -21,6 +22,7 @@ do
 		echo "prawa dostępu: OK"
 	else
 		echo "prawa dostępu: poprawić"
+		poprawic=$((poprawic + 1))
 	fi
 
 	if grep -q "TODO" "$plik"
@@ -39,5 +41,5 @@ do
 
 done
 
-echo "Razem linii: $suma"
+echo "Razem linii: $suma, do poprawienia chmod: $poprawic"
 

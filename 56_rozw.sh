@@ -9,7 +9,7 @@ do
 
 	suma=$(( suma + n ))
 
-	n2=$(cat "$plik" | grep -v '^$' | wc -l)
+	n2=$(grep -c -v '^$' < "$plik")
 
 	[ -x "$plik" ] && prawa=OK || prawa=poprawic
 

@@ -1,7 +1,10 @@
 #!/bin/bash
 
-for plik in *.md
+for plik in *.mp3
 do
-	echo "Plik: $plik"
-	wc -l < "$plik"
+	if [ -e "$plik" ]
+	then
+		echo "Plik: $plik"
+		wc -l < "$plik"
+	fi
 done

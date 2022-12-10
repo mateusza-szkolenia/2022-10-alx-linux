@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# REPL
+# - read
+# - evaluate
+# - print
+# - loop	
+
 while true
 do
 	read -p "Polecenie: " cmd

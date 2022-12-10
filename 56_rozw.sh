@@ -1,10 +1,14 @@
 #!/bin/bash
 
+suma=0
+
 for plik in *.sh
 do
 	echo -n "Plik: $plik "
 
 	n=$(wc -l < "$plik")
+
+	suma=$(( suma + n ))
 
 	echo -n "liczba linii: $n "
 
@@ -34,3 +38,6 @@ do
 	fi
 
 done
+
+echo "Razem linii: $suma"
+

@@ -1,0 +1,9 @@
+# uczestnicy zdalni
+Jan Kowalski grupa_a
+Jan Nowak grupa_b
+
+# uczestnicy lokalni
+Abc AQasd grupa_a
+QWe asd grupa_a
+
+ASDsadas ddasdsdas grupa_a

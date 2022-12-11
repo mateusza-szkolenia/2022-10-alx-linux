@@ -44,3 +44,7 @@ Zdalny serwer `rocky9` ma dostęp do zasobu na porcie `1234` na serwerze `xyz.ex
 $ ssh -L 9999:xyz.example.com:1234 rocky9
 ```
 
+Można też ustawić na stałe w konfigu opcjami `LocalForward` i `RemoteForward`
+
+Manual: `man ssh_config` oraz `man sshd_config`
+

@@ -2,13 +2,9 @@
 
 function czy_ocena () {
 	local ocena=$1
-	
-	if [ "$ocena" -ge 1 ] && [ "$ocena" -le 6 ]
-	then
-		return 0
-	else
-		return 1
-	fi
+
+	# ostatnia instrukcja w kodzie funkcji jest też kodem wyjścia	
+	[ "$ocena" -ge 1 ] && [ "$ocena" -le 6 ]
 }
 
 read -p "Podaj ocenę: " xxx

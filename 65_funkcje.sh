@@ -1,10 +1,9 @@
 #!/bin/bash
 
-function powitanie () {
+powitanie () {
 	echo "Witaj"
 	echo "Jest dzisiaj $(date +%F) i pada śnieg"
 }
-
 
 
 powitanie

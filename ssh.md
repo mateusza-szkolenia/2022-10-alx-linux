@@ -48,3 +48,5 @@ Można też ustawić na stałe w konfigu opcjami `LocalForward` i `RemoteForward
 
 Manual: `man ssh_config` oraz `man sshd_config`
 
+Doczytać o `ControlMaster` (i odpowiednich `ControlPath` i `ControlPersists`)
+

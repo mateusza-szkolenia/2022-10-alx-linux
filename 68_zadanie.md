@@ -21,7 +21,7 @@ Wysyłam maile:
 
 Skrypt losuje kto komu kupuje prezent i wysyła maila (lub zapisuje do pliku tekstowego) informację o tym:
 
-Przykład wysyłania mailu:
+Przykład wysyłania maili:
 
 ```shell
 $ echo "Wylosowana osoba: $osoba1" | mail -s "losowanie mikołajkowe" "$osoba2"

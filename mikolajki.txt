@@ -1,0 +1,9 @@
+aleksander@example.com
+bartek@example.com
+czeslaw@example.com
+dariusz@example.com
+edward@example.com
+franek@example.com
+grzesio@example.com
+henryk@example.com
+igor@example.com

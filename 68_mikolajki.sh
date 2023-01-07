@@ -22,7 +22,7 @@ function sprawdz_pary () {
 
 while true
 do
-	shuf "$lista" > "$lista_los"
+	sort -R "$lista" > "$lista_los"
 	paste "$lista" "$lista_los" > "$lista_par"
 
 	sprawdz_pary && break
